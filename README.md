@@ -1,6 +1,6 @@
 # Shop-Stop(E-Commerce-App)
 
-This is a simple e-commerce application built using React. It allows users to browse through products, add them to their cart, and complete the purchase.
+A simple e-commerce application built using ReactJS.
 
 # Tools Used
 
