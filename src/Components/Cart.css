@@ -1,0 +1,44 @@
+/* CSS form Cart component */
+.cart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-item-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 2px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 120px;
+}

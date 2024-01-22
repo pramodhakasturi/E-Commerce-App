@@ -1,0 +1,80 @@
+/* CSS for Products Component */
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 35px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+.product-image {
+    width: 325px;
+    height: 325px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: black;
+}
+
+.product-link{
+    text-decoration: none;
+}
+
+.product-price {
+    font-size: 18px;
+    color: green;
+    margin-top: 5px;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.rating-star {
+    color: orange;
+}
+
+.grey-star {
+    color: grey;
+}
+
+.product-category {
+    margin-top: 5px;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    margin: 10px;
+    padding: 10px;
+}
+
+.addCart-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.edit-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    color: rgb(77, 169, 173);
+}
+
+.delete-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 140px;
+    color: #ff0000;
+}

@@ -1,0 +1,38 @@
+/* CSS for Navbar component */
+.navbar {
+  background-color: gray;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin: 0px 8px;
+}
+
+.navbar-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size:2rem;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links li a:hover {
+  color: orange;
+}
